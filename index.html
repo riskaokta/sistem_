@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistem Informasi Inventaris Sekolah</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Area Font -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="logo">
+        <i class="fa-solid fa-school"></i>
+        <h2>Inventaris Sekolah</h2>
+    </div>
+
+    <div class="admin">
+        <i class="fa-solid fa-user-circle"></i>
+        Admin
+    </div>
+
+</header>
+
+<!-- ================= LAYOUT ================= -->
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <ul>
+
+            <li class="active">
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="data_barang.html">
+                    <i class="fa-solid fa-box"></i>
+                    Data Barang
+                </a>
+            </li>
+
+            <li>
+                <a href="kategori.html">
+                    <i class="fa-solid fa-layer-group"></i>
+                    Kategori
+                </a>
+            </li>
+
+            <li>
+                <a href="transaksi.html">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    Transaksi
+                </a>
+            </li>
+
+            <li>
+                <a href="laporan.html">
+                    <i class="fa-solid fa-chart-column"></i>
+                    Laporan
+                </a>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-users"></i>
+                User
+            </li>
+
+            <li>
+                <i class="fa-solid fa-right-from-bracket"></i>
+                Logout
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="content">
+
+        <h1>Dashboard</h1>
+
+        <!-- CARD -->
+
+        <section class="cards">
+
+            <div class="card">
+                <i class="fa-solid fa-box"></i>
+
+                <h3>Total Barang</h3>
+
+                <h2>250</h2>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-arrow-down"></i>
+
+                <h3>Barang Masuk</h3>
+
+                <h2>45</h2>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-arrow-up"></i>
+
+                <h3>Barang Keluar</h3>
+
+                <h2>18</h2>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-users"></i>
+
+                <h3>Total User</h3>
+
+                <h2>5</h2>
+            </div>
+
+        </section>
+
+        <!-- TABEL -->
+
+        <section class="table-box">
+
+            <h2>Data Inventaris</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Kode</th>
+                        <th>Nama Barang</th>
+                        <th>Kategori</th>
+                        <th>Jumlah</th>
+                        <th>Lokasi</th>
+                        <th>Status</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>BR001</td>
+                        <td>Laptop Lenovo</td>
+                        <td>Elektronik</td>
+                        <td>20</td>
+                        <td>Lab Komputer</td>
+                        <td>Baik</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>BR002</td>
+                        <td>Proyektor</td>
+                        <td>Elektronik</td>
+                        <td>10</td>
+                        <td>Ruang Guru</td>
+                        <td>Baik</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    © 2026 Sistem Informasi Inventaris SMK Cendikia Farma Husada
+
+</footer>
+
+</body>
+</html>
