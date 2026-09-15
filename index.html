@@ -32,6 +32,66 @@
 
 </header>
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Mid Goat</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0f0f12;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: white;
+            letter-spacing: -3px;
+            animation: float 3s ease-in-out infinite;
+            text-shadow: 0 0 25px rgba(255,255,255,.25);
+        }
+
+        h1 span {
+            color: #8b5cf6;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 45px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Ali <span>Mid</span> Goat 🐐</h1>
+
+</body>
+</html>
 <!-- ================= LAYOUT ================= -->
 
 <div class="container">
@@ -153,6 +213,7 @@
                         <th>Jumlah</th>
                         <th>Lokasi</th>
                         <th>Status</th>
+                        <th>Milik</th>
 
                     </tr>
 
@@ -168,6 +229,7 @@
                         <td>20</td>
                         <td>Lab Komputer</td>
                         <td>Baik</td>
+                        <td>Adel</td>
 
                     </tr>
 
@@ -179,6 +241,7 @@
                         <td>10</td>
                         <td>Ruang Guru</td>
                         <td>Baik</td>
+                        <td>Zaskia</td>
 
                     </tr>
 
@@ -199,6 +262,9 @@
     © 2026 Sistem Informasi Inventaris SMK Cendikia Farma Husada
 
 </footer>
+<script>
+    
+</script>
 
 </body>
 </html>
